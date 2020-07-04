@@ -38,8 +38,7 @@ function actionApplyer(int, array){
     if (array.length === 0) {
         return int
     } else {
-      let result = array[0](13)
-      result = array[1](result)
-      return array[2](result)
+        let result = int
+        return array.reduce((total, obj) =>  result = obj(result), 0)
     }
 }
