@@ -50,17 +50,6 @@ const Calculator = {add, subtract, multiply, divide}
 
 let intg = 4
 let arr = []
-// function actionApplyer(intg, arr){
-//   if (arr.length > 0){
-//     let numTwo = arr[0](intg)
-//     let numThree = arr[1](numTwo)
-//     arr[2](numThree)
-//   }
-//   else {
-//     return intg
-//   }
-// }
-
 
 function actionApplyer(intg, arr){
     if (arr.length > 0){
@@ -70,3 +59,16 @@ function actionApplyer(intg, arr){
       return intg
     }
   }
+
+//Alternative Solution
+
+  // function actionApplyer(intg, arr){
+//   if (arr.length > 0){
+//     let numTwo = arr[0](intg)
+//     let numThree = arr[1](numTwo)
+//     arr[2](numThree)
+//   }
+//   else {
+//     return intg
+//   }
+// }
