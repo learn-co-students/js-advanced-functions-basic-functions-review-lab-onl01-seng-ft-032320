@@ -30,9 +30,8 @@ const Calculator =  {
 
 function actionApplyer(int, array) {
     
-    if (array.length < 1) {
-        return int;
-    } else {
-        return 4;
+    for (let i = 0; i < array.length; i ++) {
+        int = array[i](int);
     }
+    return int;
 }
